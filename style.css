@@ -306,6 +306,7 @@ body{
     background-color:#bdc3c7;
     text-align: center;
     padding:0px 0px 20px 0px;
+    margin-top: 20px;
 }
 .column:hover{
     background-color: #fff;
