@@ -14,6 +14,7 @@
 a:focus {
     outline: 0 solid;
     text-decoration: none;
+
 }
 img {
     max-width: 100%;
@@ -341,4 +342,139 @@ p.pro{
 }
 .column span{
     font-size: 30px;
+}
+.my-prtofolio{
+    padding: 100px 40px;
+    background-color: #F1F1F1;
+}
+.my-prtofolio h1{}
+.filer-section{}
+.filer-section a{
+    display: inline-block;
+    padding: 10px;
+    background-color: #fff;
+    margin-right:8px;
+    margin-top: 10px;
+    text-decoration: none;
+
+}
+.filer-section a:hover,a.active:hover{
+    background-color:grey;
+    color: black;
+
+}
+.filer-section a i{
+    font-size:16px;
+}
+.filer-section a.active:hover{
+    background-color:grey;
+    color: #fff;
+}
+.filer-section a.active{
+    background-color: black;
+    color: #fff;
+}
+.all-project{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap:20px 20px;
+}
+.project{
+}
+.project{
+    width: 100%;
+    background-color: #fff;
+    margin-top:30px;
+}
+.project-img{
+    width: 100%;
+    overflow: hidden;
+
+}
+.project-img img{
+    width: 100%;
+     max-height: 390px;
+}
+.project-img img:hover{
+    transform: scale(1.3);
+    transition: .4s ease;
+}
+
+.project-desc{
+    padding: 10px;
+}
+.pagination-section{
+    text-align: center;
+}
+ul.pagination{
+}
+.footer-contact{
+    display: grid;
+    padding:50px 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+.from input{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+.from textarea{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    resize: none;
+}
+.from h3,.from p{
+}
+.from button{
+    padding:12px 0px;
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    border:none;
+    outline: none;
+    margin-top: 20px;
+}
+.blog-post{
+    padding: 0px 20px 20px 20px;
+}
+.blog-post{
+}
+.post{
+    display:flex;
+    margin-top:30px;
+}
+.post img{
+    width:70px;
+    height:70px;
+
+}
+.post:hover{
+    background-color: #CCCCCC;
+}
+.post-desc{
+    padding-top:5px;
+    padding-left: 20px;
+
+}
+.Tags{
+    text-align: center;
+}
+.Tags a{
+    display: block;
+    font-size: 18px;
+    padding: 10px 0px;
+
+}
+footer{
+    text-align: center;
+    padding:20px 10px;
+    color: grey;
+    background-color: black;
+
+}
+footer a{
+    color: grey;
 }

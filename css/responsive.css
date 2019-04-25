@@ -53,7 +53,23 @@ body{
 .technical-skill{
     padding:0px;
 }
+.my-prtofolio{
+    padding: 100px 20px;
+    background-color: #F1F1F1;
+}
  
+ .all-project{
+    display: grid;
+    grid-template-columns:1fr;
+    grid-template-rows: 1fr;
+    grid-gap:20px 20px;
+}
+.footer-contact{
+    display: grid;
+    padding:50px 20px;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
 }
 /* Wide Mobile Layout: 480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) { 
