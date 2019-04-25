@@ -415,6 +415,9 @@ ul.pagination{
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
 }
+.from{
+    margin:20px 0px;
+}
 .from input{
     width: 100%;
     padding: 10px;
@@ -444,7 +447,7 @@ ul.pagination{
 }
 .post{
     display:flex;
-    margin-top:30px;
+    margin:20px 0px;
 }
 .post img{
     width:70px;
@@ -461,6 +464,7 @@ ul.pagination{
 }
 .Tags{
     text-align: center;
+    margin:20px 0px;
 }
 .Tags a{
     display: block;
