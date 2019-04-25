@@ -124,7 +124,7 @@ nav ul ul li a{
     padding:8px;
     margin: 5px 5px;
     font-weight: bold;
-    background-color:#616161;
+    background-color:#ff573d;
     color: #fff;
     border-radius: 50%;
     
@@ -164,6 +164,8 @@ body{
 }
 .navbar{
     padding: 10px 0px;
+    position: fixed;
+    width: 100%;
 }
 .bg-section{
     height: 100%;
