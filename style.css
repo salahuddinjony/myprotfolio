@@ -411,7 +411,7 @@ ul.pagination{
 }
 .footer-contact{
     display: grid;
-    padding:50px 20px;
+    padding:50px 30px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
 }
@@ -441,7 +441,7 @@ ul.pagination{
     margin-top: 20px;
 }
 .blog-post{
-    padding: 0px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
 }
 .blog-post{
 }
@@ -459,7 +459,7 @@ ul.pagination{
 }
 .post-desc{
     padding-top:5px;
-    padding-left: 20px;
+    padding-left:20px;
 
 }
 .Tags{
