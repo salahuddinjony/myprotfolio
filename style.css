@@ -91,7 +91,6 @@ text-align: center;
 .nav-items{
     margin-top: 20px;
 }
-
 nav{
     text-align: center;
 
@@ -117,7 +116,7 @@ nav ul ul li a{
 }
 .footer-section{
     text-align: center;
-    padding:15px 0px;
+    padding:10px 0px;
 }
 .social-media{}
 .social-media a{
@@ -147,6 +146,27 @@ body{
     width: 70%;
     float: right;
     scroll-behavior:smooth;
+}
+.top-section{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.header{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 111;
+    display:none;
+}
+.header h2{
+    color: #fff;
+}
+.navbar{
+    padding: 10px 0px;
+}
+.bg-section{
+    height: 100%;
 }
 .welcome-section{
     background-image: url("img/banner-2.jpg");

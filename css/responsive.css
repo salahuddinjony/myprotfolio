@@ -39,11 +39,34 @@ body{
     padding-left:10px;
 
 }
+.header{
+    position:fixed;
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 111;
+    display: block;
+}
 }
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) { 
 body{
 	width: 100%;
+}
+.header{
+    position:fixed;
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 111;
+    display: block;
+}
+.welcome-text h1{
+    font-weight: 800;
+    font-size:35px;
+    padding: 0px 10px;
 }
 .about-img{
     padding:20px 0px;
